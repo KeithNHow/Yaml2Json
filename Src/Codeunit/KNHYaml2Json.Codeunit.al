@@ -2,7 +2,7 @@ codeunit 54100 "KNH Yaml 2 Json"
 {
     trigger OnRun()
     begin
-
+        PlayingWithJAML();
     end;
 
     var
