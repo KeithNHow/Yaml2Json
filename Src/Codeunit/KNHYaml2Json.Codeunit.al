@@ -4,7 +4,6 @@ codeunit 54100 "KNH Yaml 2 Json"
     begin
         this.Json2Yaml();
         this.Yaml2Json();
-
     end;
 
     procedure Json2Yaml()
