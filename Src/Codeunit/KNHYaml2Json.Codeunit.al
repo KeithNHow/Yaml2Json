@@ -1,3 +1,4 @@
+namespace KNHYaml2Json;
 codeunit 54100 "KNH Yaml 2 Json"
 {
     trigger OnRun()
