@@ -15,7 +15,6 @@ codeunit 54100 "KNH Yaml 2 Json"
         InStr: Instream;
         Filename: Text;
     begin
-
         if File.UploadIntoStream('Open Json File', 'C:\Temp\', 'All files (*.*)|*.*', Filename, InStr) then begin
             JToken.ReadFrom(InStr);
             JObject := JToken.AsObject();
